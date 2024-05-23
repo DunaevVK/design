@@ -112,6 +112,9 @@ button {
 }
 
 @media (max-width: 577px) {
+    body {
+        margin: 32px;
+    }
     h1 {
         font-size: 52px;
         line-height: 68px;
