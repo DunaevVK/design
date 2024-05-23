@@ -113,9 +113,6 @@ button {
 }
 
 @media (max-width: 577px) {
-    body {
-        margin: 32px;
-    }
     h1 {
         font-size: 52px;
         line-height: 68px;
@@ -125,6 +122,18 @@ button {
         font-size: 25px;
         line-height: 32px;
 
+    }
+
+    .footer-btns {
+        width: 173px;
+    }
+
+    .footer-btns button {
+        margin-left: -10px;
+    }
+
+    .footer-link {
+        margin-left: -10px;
     }
 
     .qr {
